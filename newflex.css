@@ -1,0 +1,35 @@
+.flex-up {
+    display:flex;
+    justify-content:space-around;
+    align-items:stretch;
+    align-content:space-around;
+    flex-direction:row;
+    flex:wrap;
+    flex-flow:wrap;
+    height:100vh;
+}
+
+[class^="box"] {
+  background-color:black;
+  color:white;
+  height:24.5%;
+}
+.box1{
+    width:100%;
+    
+}
+.box2{
+    width:50%;
+    justify-content;
+}
+.box3{
+    width:50%;
+    justify-content: space-around;
+}
+.box4,.box5,.box6,.box7{
+    width:25%;
+    
+}
+.box8,.box9,.box10{
+    width:33.28%;
+}
